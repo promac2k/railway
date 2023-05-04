@@ -1,0 +1,57 @@
+#myVideo {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+.font-titulo {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: clamp(50px, 19vw, 350px);
+}
+
+.font-subtitulo {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: clamp(50px, 10vw, 80px);
+}
+
+.font-punch {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: clamp(35px, 7vw, 60px);
+}
+
+.font-develop {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: clamp(16px, 3vw, 36px);
+    letter-spacing: 3px;
+}
+
+#develop {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
